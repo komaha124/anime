@@ -1,0 +1,30 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    /*transition: all .5s ease;*/
+    animation: changeBackraund 1.5s ease infinite;
+}
+@keyframes changeBackraund{
+    0%{
+        background-color: gren;
+        width: 100px;
+    }
+    50%{
+        background-color: red;
+        width: 50px;
+    }
+    100%{
+        background-color: gren;
+    }
+}
+
+
+
+
+
+div:hover{
+   /* background-color: hotpink;*/
+   animation-play-state: paused;
+}
